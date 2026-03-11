@@ -26,4 +26,4 @@ jobs:
           TOKEN: ${{ secrets.TOKEN }}
           CLIENT_ID: ${{ secrets.CLIENT_ID }}
           MISSION_CHANNEL_ID: ${{ secrets.MISSION_CHANNEL_ID }}
-        run: node src/index.js
+        run: node index.js
